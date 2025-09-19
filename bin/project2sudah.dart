@@ -1,0 +1,17 @@
+import 'dart:io';
+
+import 'package:project2/project2.dart' as project2;
+
+void main() {
+  // var sudah = {'nim': "101", 'nama': "andi", 'umur': 20};
+  // print(sudah);
+  // print(sudah['nama']);
+
+  var opo = {
+    'nim': ["101", "102"],
+    'nama': ["andi", "budi"],
+    'umur': [20, 21],
+  };
+  print(opo);
+  print(opo['nama']![1]);
+}
